@@ -1,0 +1,42 @@
+# Compiled source #
+*.class
+*/bin/*
+
+# Eclipse files
+.project
+.classpath
+.settings
+
+# Intellij Files
+.idea
+.ipr
+*.iml
+
+#netbeans specific
+core
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
+
+# Packages
+*.jar
+
+# Maven build files
+target
+reports
+# ARQ tests
+arq-perf
+
+# PMD
+work/
+.pmd
+
+# Merge files
+*.orig
+
+# Checkstyle
+.checkstyle
+
+#Add others here
+.DS_store
+
